@@ -66,3 +66,7 @@ The app will then:
 - Display store pages with their associated offers
 - Show both base and offer prices for each product
 - Enable direct purchase at the offer price
+
+## Note
+
+This repo is a fork of [Saleor App Checkout Prices](https://github.com/saleor/saleor-app-checkout-prices).
