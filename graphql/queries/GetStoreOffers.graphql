@@ -1,0 +1,26 @@
+query GetStoreOffers($ids: [ID!]) {
+  pages(first: 100, filter: { ids: $ids }) {
+    edges {
+      node {
+        id
+        title
+        slug
+        content
+        attributes {
+          attribute {
+            slug
+          }
+          values {
+            ... on AttributeValue {
+              id
+              name
+              reference
+              slug
+              value
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+query GetStorePages($pageTypeId: ID!) {
+  pages(first: 100, filter: { pageTypes: [$pageTypeId] }) {
+    edges {
+      node {
+        id
+        title
+        slug
+        attributes {
+          attribute {
+            slug
+          }
+          values {
+            ... on AttributeValue {
+              id
+              name
+              reference
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+query GetStoreOffer($id: ID!) {
+  page(id: $id) {
+    id
+    title
+    slug
+    content
+    attributes {
+      attribute {
+        slug
+      }
+      values {
+        ... on AttributeValue {
+          id
+          name
+          reference
+          slug
+          value
+        }
+      }
+    }
+  }
+}

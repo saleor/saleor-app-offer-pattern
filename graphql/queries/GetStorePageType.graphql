@@ -1,0 +1,11 @@
+query GetStorePageType {
+  pageTypes(first: 1, filter: { search: "store" }) {
+    edges {
+      node {
+        id
+        name
+        slug
+      }
+    }
+  }
+}

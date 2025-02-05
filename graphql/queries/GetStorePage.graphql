@@ -1,0 +1,19 @@
+query GetStorePage($id: ID) {
+  page(id: $id) {
+    id
+    title
+    attributes {
+      attribute {
+        slug
+      }
+      values {
+        ... on AttributeValue {
+          id
+          name
+          reference
+          value
+        }
+      }
+    }
+  }
+}
