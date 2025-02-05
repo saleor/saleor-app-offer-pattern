@@ -1,5 +1,8 @@
 # Saleor App Offers POC
 
+> [!NOTE]
+> "An offer" is a pattern that can be used to create a special price for a product. It is a page with a reference to a product variant and a special price.
+
 A Saleor app that enables special offer prices for products in your store. It allows you to:
 
 1. Display store pages with special offers
