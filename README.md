@@ -3,6 +3,9 @@
 > [!NOTE]
 > "An offer" is a pattern that can be used to create a special price for a product. It is a page with a reference to a product variant and a special price.
 
+> [!TIP]
+> By running [saleor/configurator](https://github.com/saleor/configurator)'s `bootstrap` command with the `config.yml` file, you can create the data types needed for this app.
+
 A Saleor app that enables special offer prices for products in your store. It allows you to:
 
 1. Display store pages with special offers
@@ -72,4 +75,4 @@ The app will then:
 
 ## Note
 
-This repo is a fork of [Saleor App Checkout Prices](https://github.com/saleor/saleor-app-checkout-prices).
+- This repo is a fork of [Saleor App Checkout Prices](https://github.com/saleor/saleor-app-checkout-prices).

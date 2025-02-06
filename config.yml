@@ -1,0 +1,14 @@
+# this is a config for https://github.com/saleor/configurator
+pageTypes:
+  - name: Store Page
+    attributes:
+      - name: Store Offers
+        inputType: REFERENCE
+        entityType: PAGE
+  - name: Offer Page
+    attributes:
+      - name: Offer Variant
+        inputType: REFERENCE
+        entityType: PRODUCT_VARIANT
+      - name: Offer Price
+        inputType: PLAIN_TEXT
