@@ -91,7 +91,7 @@ export const StoresList = () => {
 
   return (
     <div className="container">
-      <h1 className="title">Our Boutiques</h1>
+      <h1 className="title">Our Stores</h1>
       <div className="stores-grid">
         {stores.map(({ node }) => (
           <Link key={node.id} href={`/stores/${node.id}`}>
