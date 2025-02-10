@@ -1,5 +1,7 @@
 # Saleor App Offers POC
 
+https://github.com/user-attachments/assets/171737ca-2932-4ed1-974d-d9f42d08341e
+
 > [!NOTE]
 > "An offer" is a pattern that can be used to create a special price for a product. It is a page with a reference to a product variant and a special price.
 
