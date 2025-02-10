@@ -45,6 +45,9 @@ pnpm dev
 
 The app requires the following configuration in Saleor:
 
+> [!NOTE]
+> For demo purposes, you need to set `channel.allowUnpaidOrders` to `true`, so that an order can be created in the demo storefront.
+
 ### Page Types
 
 1. A page type with slug `store` - used for store pages

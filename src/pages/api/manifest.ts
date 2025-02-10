@@ -31,7 +31,7 @@ export default createManifestHandler({
          *
          * This can be removed
          */
-        "MANAGE_CHECKOUTS",
+        "HANDLE_CHECKOUTS",
       ],
       id: "saleor.app.offers-poc",
       version: packageJson.version,
